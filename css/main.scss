@@ -92,3 +92,34 @@ $theme-colors: map-merge($theme-colors, $custom-color );
         border: none;
     }
 }
+
+
+/*************** FRONT PAGE *********************/
+
+
+/*************** SLIDER *********************/
+
+.site-main{
+    .img-carousel{
+        img{
+            height: 450px;
+            object-fit: cover;
+        }
+        .carousel-inner{
+            border-radius: 10px;
+            .carousel-item{
+                .carousel-caption{
+                    background-color: $primary;
+                    color: $white;
+                    border-radius: 100% 100% 0 0;
+                }
+            }
+        }
+    }
+}
+
+.carousel{
+    .carousel-control-prev, .carousel-control-next{
+        width: 10%;
+    }
+}

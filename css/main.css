@@ -11521,6 +11521,9 @@ textarea.form-control-lg {
   height: 30px;
   margin-right: 8px;
 }
+.announcment-bar__list li a {
+  text-decoration: none;
+}
 @media (max-width: 991.98px) {
   .announcment-bar {
     display: none;
@@ -11539,4 +11542,25 @@ textarea.form-control-lg {
   font-size: 0.9rem;
   border-radius: 20px !important;
   padding-left: 1.4rem;
+}
+
+/****** Main MENU ********/
+.main-navigation {
+  font-weight: 400;
+}
+.main-navigation .current-menu-item {
+  background: rgb(149, 33, 149);
+}
+.main-navigation a {
+  color: var(--bs-white);
+  padding: 0.6rem 1.4rem;
+  transition: all ease-in-out 0.5s;
+}
+.main-navigation a:hover {
+  background: rgb(149, 33, 149);
+}
+.main-navigation .menu-toggle {
+  background-color: rgb(127, 24, 127);
+  color: #fff;
+  border: none;
 }/*# sourceMappingURL=main.css.map */

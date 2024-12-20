@@ -43,6 +43,9 @@ $theme-colors: map-merge($theme-colors, $custom-color );
                 height: 30px;
                 margin-right: 8px;
             }
+            a{
+                text-decoration: none;
+            }
         }
     }
 
@@ -64,5 +67,28 @@ $theme-colors: map-merge($theme-colors, $custom-color );
         font-size: 0.9rem;
         border-radius: 20px !important;
         padding-left: 1.4rem;
+    }
+}
+
+/****** Main MENU ********/
+.main-navigation{
+    font-weight: 400;
+    .current-menu-item{
+        background: rgb(149, 33, 149);
+    }
+    a{
+        color: var(--bs-white);
+        padding: 0.6rem 1.4rem ;
+        transition: all ease-in-out 0.5s;
+
+    }
+    a:hover{
+        background: rgb(149, 33, 149);
+    }
+
+    .menu-toggle{
+        background-color: $primary;
+        color: $white;
+        border: none;
     }
 }

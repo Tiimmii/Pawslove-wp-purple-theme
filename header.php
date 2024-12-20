@@ -25,6 +25,41 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'pawslove' ); ?></a>
 
+	<div class="announcment-bar py-2">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<ul class="announcment-bar__list">
+						<li>
+							<i class="bi bi-telephone rounded-circle"></i>
+							<a href="tel: +44 555 22998">+44 555 22998</a>
+						</li>
+						<li>
+							<i class="bi bi-envelope rounded-circle"></i>
+							<a href="mailto: pawslove@shop.com">pawslove@shop.com</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-8 d-flex justify-content-end">
+					<ul class="announcment-bar__list">
+						<li>
+							<i class="bi bi-truck rounded-circle"></i> FREE EU SHIPPING
+							
+						</li>
+						<li>
+							<i class="bi bi-clock-history rounded-circle"></i>
+							30 DAYS MONEY BANK GUARANTEE
+						</li>
+						<li>
+							<i class="bi bi-person rounded-circle"></i>
+							24/7 CUSTOMER SUPPORT
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
 			<?php

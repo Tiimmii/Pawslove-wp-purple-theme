@@ -1,3 +1,52 @@
-body{
-    background: aqua;
+// Include custom variables default overides here
+
+$primary: rgb( 127 , 24, 127);
+$gray: #e6e6e6;
+$theme-colors: (
+    "primary": $primary,
+    "gray": $gray,
+);
+// create your own map
+$custom-color:(
+    "icon-background": rgba(127, 24, 127, 0.1),
+);
+$theme-colors: map-merge($theme-colors, $custom-color );
+
+@import "./bootstrap-5.3.3/scss/bootstrap";
+
+// Then add additional custom code here
+
+/*************** HEADER *********************/
+
+.announcment-bar {
+    font-size: 0.5rem;
+    border-bottom: 1px solid var(--bs-gray);
+
+    &__list{
+        padding: 0;
+        margin: 0;
+        list-style: 0;
+        display: inline-flex;
+        margin: 0 - 10px;
+
+        li{
+            margin: 0 10px;
+            display: flex;
+            align-items: center;
+
+            .bi{
+                background-color: var(--bs-icon-background);
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                width: 30px;
+                height: 30px;
+                margin-right: 8px;
+            }
+        }
+    }
+
+    @include media-breakpoint-down(lg){
+        display: none;
+    }
 }

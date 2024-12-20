@@ -140,6 +140,7 @@ add_action( 'widgets_init', 'pawslove_widgets_init' );
 function pawslove_scripts() {
 	wp_enqueue_style( 'pawslove-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_enqueue_style( 'pawslove-main-style', get_template_directory_uri(). '/css/main.css', array(), _S_VERSION );
+	wp_enqueue_style( 'bootstrap-icons', 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css', array(), _S_VERSION );
 	wp_style_add_data( 'pawslove-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'pawslove-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
@@ -149,6 +150,21 @@ function pawslove_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'pawslove_scripts' );
+
+/**
+ * Custom Fonts.
+ */
+
+ function T_enqueue_custom_fonts(){
+	if(!is_admin()){
+		wp_register_style('source_montserrat', 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+		wp_register_style('source_nunito', 'https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+		wp_enqueue_style('source_montserrat');
+		wp_enqueue_style('source_nunito');
+	}
+ }
+
+ add_action('wp_enqueue_scripts', 'T_enqueue_custom_fonts');
 
 /**
  * Implement the Custom Header feature.

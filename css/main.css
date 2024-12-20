@@ -11525,4 +11525,18 @@ textarea.form-control-lg {
   .announcment-bar {
     display: none;
   }
+}
+
+.site-header {
+  padding: 0;
+  margin: 0;
+}
+.site-header__logo img {
+  width: 60px;
+  height: 60px;
+}
+.site-header .aws-search-field {
+  font-size: 0.9rem;
+  border-radius: 20px !important;
+  padding-left: 1.4rem;
 }/*# sourceMappingURL=main.css.map */

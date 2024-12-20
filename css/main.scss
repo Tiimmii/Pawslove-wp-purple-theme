@@ -50,3 +50,19 @@ $theme-colors: map-merge($theme-colors, $custom-color );
         display: none;
     }
 }
+
+.site-header{
+    padding: 0;
+    margin: 0;
+    &__logo{
+        img{
+            width: 60px;
+            height: 60px;
+        }
+    }
+    .aws-search-field{
+        font-size: 0.9rem;
+        border-radius: 20px !important;
+        padding-left: 1.4rem;
+    }
+}

@@ -59,6 +59,17 @@ get_header();
         </div>
     </section>
 
+    <section class="container">
+            <h1 class="text-center">
+                Popular Products
+            </h1>
+            <p class="text-center">We offer a number of high quality toys to help keep <br/> your pets health and spoiled</p>
+
+            <div class="pt-5 pb-5">
+                <?php echo do_shortcode('[products columns=4 limit=4]'); ?>
+            </div>
+    </section>
+
 </main><!-- #main -->
 
 <?php

@@ -11658,6 +11658,10 @@ textarea.form-control-lg {
   color: #fff;
   border: none;
 }
+.main-navigation .sub-menu li {
+  background-color: rgb(127, 24, 127);
+  padding: 0.3rem;
+}
 
 /*************** FRONT PAGE *********************/
 /*************** SLIDER *********************/
@@ -11711,7 +11715,43 @@ textarea.form-control-lg {
   }
 }
 
+/*************** SIDEBAR *********************/
+#secondary .aws-search-field {
+  font-size: 0.9rem;
+  border-radius: 20px !important;
+  padding-left: 1.4rem;
+}
+
 /*************** FOOTER *********************/
 .payment-method {
   height: 60px;
+}
+
+.site-footer .menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.site-footer .menu a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  padding: 0.3rem 0rem;
+  transition: all ease-in-out 0.5s;
+}
+.site-footer .menu a:hover {
+  text-decoration: underline;
+}
+.site-footer .textwidget .aws-search-field {
+  font-size: 0.9rem;
+  border-radius: 20px !important;
+  padding-left: 1.4rem;
+}
+.site-footer .textwidget .icons {
+  padding-top: 5px;
+  display: flex;
+}
+.site-footer .textwidget .icons i {
+  font-size: 1rem !important;
 }/*# sourceMappingURL=main.css.map */

@@ -106,7 +106,7 @@ get_header();
                 </a>
             </div>
 
-            <div class="categories__col col-md-8 col-sm-12">
+            <div class="categories__col col-md-8 col-sm-12 pt-sm-2  ">
                 <a href="#" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
                     <img class="special-offer position-absolute top-0 buttom-0 end-0 start-0" src="<?php echo get_template_directory_uri(). '/images/cute-happy-dog.jpg' ?>" alt="cute happy dog" loading="lazy"/>
                     <h2 class="special-offer-text position-absolute bottom-0 h-full start-0 end-0 p-2 mb-0 text-center bg-primary-opacity-8 text-white d-flex flex-column align-items-center justify-content-center">Special Offers <p class="-off">UP TO 40% OFF</p></h2>

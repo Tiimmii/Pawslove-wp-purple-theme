@@ -167,12 +167,55 @@ $theme-colors: map-merge($theme-colors, $custom-color );
 
 /*************** SIDEBAR *********************/
 #secondary{
+    a{
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        li{
+            margin: 0;
+            padding: 0;
+        }
+    }
     .aws-search-field{
         font-size: 0.9rem;
         border-radius: 20px !important;
         padding-left: 1.4rem;
     }
+    .price_slider_wrapper{
+        button{
+            background: #7F54B3;
+            color: $white;
+        }
+    }
+    .price_slider{
+        background: #E6E3EA;
+    }
+    h2{
+        font-size: 20px;
+    }
+    button{
+        background: $primary;
+        color: $white;
+    }
+    select{
+        width: 100%;
+        height: 50px;
+        border-radius: 20px !important;
+        option:checked{
+            background-color: &$primary !important;
+        }
+    }
 }
+
+/*************** PRODUCTS *********************/
 
 /*************** FOOTER *********************/
 .payment-method{

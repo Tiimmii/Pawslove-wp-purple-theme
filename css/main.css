@@ -11721,6 +11721,27 @@ textarea.form-control-lg {
   border-radius: 20px !important;
   padding-left: 1.4rem;
 }
+#secondary .price_slider_wrapper button {
+  background: #7F54B3;
+  color: #fff;
+}
+#secondary .price_slider {
+  background: #E6E3EA;
+}
+#secondary h2, #secondary .h2 {
+  font-size: 20px;
+}
+#secondary button {
+  background: rgb(127, 24, 127);
+  color: #fff;
+}
+#secondary select {
+  width: 100%;
+  height: 50px;
+}
+#secondary select option {
+  background-color: #secondary select option rgb(127, 24, 127) !important;
+}
 
 /*************** FOOTER *********************/
 .payment-method {

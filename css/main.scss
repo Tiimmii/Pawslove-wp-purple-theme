@@ -1,10 +1,12 @@
 // Include custom variables default overides here
 
 $primary: rgb( 127 , 24, 127);
+$primary-opacity-8: rgba( 127 , 24, 127,  0.8);
 $gray: #e6e6e6;
 $theme-colors: (
     "primary": $primary,
     "gray": $gray,
+    "primary-opacity-8": $primary-opacity-8 ,
 );
 // create your own map
 $custom-color:(
@@ -121,5 +123,37 @@ $theme-colors: map-merge($theme-colors, $custom-color );
 .carousel{
     .carousel-control-prev, .carousel-control-next{
         width: 10%;
+    }
+}
+
+/*************** CATEGORIES *********************/
+.categories{
+    background-color: #f9f9f9;
+
+        &__col{
+            height: 212px;
+            .special-offer{
+                object-fit: contain !important;
+            }
+            .special-offer-text{
+                height: 100% !important;
+                background-color: rgba(167, 4, 4, 0.8) !important;
+                .-off{
+                    font-size: 1rem;
+                }
+            }
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+            .h2{
+                background-color: rgba( 127 , 24, 127,  0.8) !important;
+            }
+        }
+
+    @include media-breakpoint-up(md){
+        .categories-col{
+            height: 336px;
+        }
     }
 }

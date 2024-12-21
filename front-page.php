@@ -66,8 +66,66 @@ get_header();
             <p class="text-center">We offer a number of high quality toys to help keep <br/> your pets health and spoiled</p>
 
             <div class="pt-5 pb-5">
-                <?php echo do_shortcode('[products columns=4 limit=4]'); ?>
+                <?php echo do_shortcode('[products popularity columns=4 limit=4]'); ?>
             </div>
+    </section>
+
+    <section class="categories py-5">
+        <div class="container">
+            <h1 class="text-center pt-5">Categories</h1>
+            <p class="text-center">We offer a number of high quality toys to help keep <br/> your pets health and spoiled</p>
+            
+            <div class="row pt-5">
+            <div class="categories__col col-md-4 col-sm-12 mb-3">
+                <a href="#" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
+                    <img class="position-absolute top-0 buttom-0 end-0 start-0" src="<?php echo get_template_directory_uri(). '/images/snug.jpg' ?>" alt="dog snug" loading="lazy"/>
+                    <h2 class="h2 position-absolute bottom-0 start-0 end-0 p-2 mb-0 text-center bg-primary-opacity-8 text-white">Toys</h2>
+                </a>
+            </div>
+
+            <div class="categories__col col-md-4 col-sm-12 mb-3">
+                <a href="#" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
+                    <img class="position-absolute top-0 buttom-0 end-0 start-0" src="<?php echo get_template_directory_uri(). '/images/dog-catching-a-biscuit.jpg' ?>" alt="dog catching a biscuit" loading="lazy"/>
+                    <h2 class="h2 position-absolute bottom-0 start-0 end-0 p-2 mb-0 text-center bg-primary-opacity-8 text-white">Food</h2>
+                </a>
+            </div>
+
+            <div class="categories__col col-md-4 col-sm-12 mb-3">
+                <a href="#" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
+                    <img class="position-absolute top-0 buttom-0 end-0 start-0" src="<?php echo get_template_directory_uri(). '/images/dog-wearing-costume.jpg' ?>" alt="dog wearing a costume" loading="lazy"/>
+                    <h2 class="h2 position-absolute bottom-0 start-0 end-0 p-2 mb-0 text-center bg-primary-opacity-8 text-white">Care</h2>
+                </a>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="categories__col col-md-4 col-sm-12">
+                <a href="#" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
+                    <img class="position-absolute top-0 buttom-0 end-0 start-0" src="<?php echo get_template_directory_uri(). '/images/dog-wearing-costume.jpg' ?>" alt="dog wearing a costume" loading="lazy"/>
+                    <h2 class="h2 position-absolute bottom-0 start-0 end-0 p-2 mb-0 text-center bg-primary-opacity-8 text-white">Accessories</h2>
+                </a>
+            </div>
+
+            <div class="categories__col col-md-8 col-sm-12">
+                <a href="#" class="col-md-12 w-100 h-100 d-inline-block p-3 position-relative rounded overflow-hidden">
+                    <img class="special-offer position-absolute top-0 buttom-0 end-0 start-0" src="<?php echo get_template_directory_uri(). '/images/cute-happy-dog.jpg' ?>" alt="cute happy dog" loading="lazy"/>
+                    <h2 class="special-offer-text position-absolute bottom-0 h-full start-0 end-0 p-2 mb-0 text-center bg-primary-opacity-8 text-white d-flex flex-column align-items-center justify-content-center">Special Offers <p class="-off">UP TO 40% OFF</p></h2>
+                </a>
+            </div> 
+        </div>
+        </div>
+
+    </section>
+
+    <section class="container">
+        <h1 class="text-center">
+            Special Offers
+        </h1>
+        <p class="text-center">We offer a number of high quality toys to help keep <br/> your pets health and spoiled</p>
+
+        <div class="pt-5 pb-5">
+            <?php echo do_shortcode('[sale_products columns=4 limit=4]'); ?>
+        </div>
     </section>
 
 </main><!-- #main -->

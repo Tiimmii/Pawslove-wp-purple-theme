@@ -29,10 +29,13 @@
 			</div>
 		</div>
 		
-		<div class="container py-2">
-			<div class="row d-flex align-items-center">
+		<div class="container">
+			<div class="row d-flex align-items-center justify-content-center">
 				<div class="col">
-					<p>&copy; <?php echo bloginfo( 'name' ); ?> <?php?></p>
+					<p>&copy; <?php echo bloginfo( 'name' ); ?> Theme <?php echo date('Y' ); ?> / Created by <a href="https://timmi-tech.kesug.com" target="_blank">Timmi</a></p>
+				</div>
+				<div class="col h-25 d-inline-block text-end">
+					<img src="<?php echo get_template_directory_uri(). '/images/payment-methods.png' ?>" alt="payment methods" class="payment-method img-fluid" loading="lazy"/>
 				</div>
 			</div>
 		</div>

@@ -11709,4 +11709,9 @@ textarea.form-control-lg {
   .categories .categories-col {
     height: 336px;
   }
+}
+
+/*************** FOOTER *********************/
+.payment-method {
+  height: 60px;
 }/*# sourceMappingURL=main.css.map */

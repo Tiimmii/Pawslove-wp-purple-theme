@@ -157,3 +157,8 @@ $theme-colors: map-merge($theme-colors, $custom-color );
         }
     }
 }
+
+/*************** FOOTER *********************/
+.payment-method{
+    height: 60px;
+}

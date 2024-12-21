@@ -1,6 +1,6 @@
 <?php get_header() ?>
 
-<main class="container">
+<main class="container pt-5">
     <?php woocommerce_content(); ?>
 </main>
 

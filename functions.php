@@ -266,3 +266,29 @@ function woocommerce_header_add_to_cart_fragment( $fragments ) {
  * wordpress classic widget
  */
  add_filter('use_widgets_block_editor', '__return_false');
+
+  /***
+ * woocommerce
+ */
+
+ add_theme_support('woocommerce');
+ 
+ // Removed woocommerce styles
+function remove_woocommerce_styles($enqueue_styles){
+	unset( $enqueue_styles['woocommerce-general']);
+	// unset( $enqueue_styles['woocommerce-layout']);
+	// unset( $enqueue_styles['woocommerce-smallscreen']);
+	return $enqueue_styles;
+}
+
+ add_filter('woocommerce_enqueue_styles', 'remove_woocommerce_styles');
+
+ //enqueue custom woocommerce stylesheet
+ function wp_enqueue_woocommerce_style(){
+	wp_register_style( 'mytheme-woocommerce', get_template_directory_uri().'/css/woocommerce/woocommerce.css');
+
+	if( class_exists('woocommerce')){
+		wp_enqueue_style('mytheme-woocommerce');
+	}
+ }
+ add_action('wp_enqueue_scripts', 'wp_enqueue_woocommerce_style');

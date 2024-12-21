@@ -1,0 +1,6 @@
+/**
+ * Admin
+ */
+.wp-admin.woocommerce-admin-page table.wp-list-table tr.type-product td.thumb img {
+  max-width: 40px !important;
+}/*# sourceMappingURL=twenty-twenty-one-admin.css.map */

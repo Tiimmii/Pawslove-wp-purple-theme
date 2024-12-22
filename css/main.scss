@@ -3,6 +3,9 @@
 $primary: #7f187f;
 $primary-opacity-8: rgba( 127 , 24, 127,  0.8);
 $gray: #e6e6e6;
+$headings-font-family: "Nunito", sans-serif;
+$headings-font-weight: 800;
+$font-family-base: "Poppins", sans-serif;
 $theme-colors: (
     "primary": $primary,
     "gray": $gray,
@@ -215,8 +218,6 @@ $theme-colors: map-merge($theme-colors, $custom-color );
     }
 }
 
-/*************** PRODUCTS *********************/
-
 /*************** FOOTER *********************/
 .payment-method{
     height: 60px;
@@ -251,5 +252,12 @@ $theme-colors: map-merge($theme-colors, $custom-color );
                 font-size: 1rem !important;
             }
         }
+    }
+}
+
+/*************** POSTS *********************/
+.media1{
+    h1{
+        font-size: 0.5rem !important;
     }
 }

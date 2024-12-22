@@ -95,12 +95,12 @@
   --wc-red: #a00;
   --wc-orange: #ffba00;
   --wc-blue: #2ea2cc;
-  --wc-primary: #7F54B3;
-  --wc-primary-text: white;
-  --wc-secondary: #e9e6ed;
-  --wc-secondary-text: #515151;
-  --wc-highlight: #777335;
-  --wc-highligh-text: white;
+  --wc-primary: #7f187f;
+  --wc-primary-text: #e5b1e5;
+  --wc-secondary: #d68dd6;
+  --wc-secondary-text: #1f121f;
+  --wc-highlight: #1e3209;
+  --wc-highligh-text: #eaf4df;
   --wc-content-bg: #fff;
   --wc-subtext: #767676;
 }
@@ -195,13 +195,13 @@
 }
 .woocommerce #respond input#submit,
 .woocommerce input.button {
-  background-color: var(--wp--preset--color--foreground, #7F54B3);
-  color: var(--wp--preset--color--background, white);
+  background-color: var(--wp--preset--color--foreground, #7f187f);
+  color: var(--wp--preset--color--background, #e5b1e5);
 }
 .woocommerce #respond input#submit:hover,
 .woocommerce input.button:hover {
-  background-color: var(--wp--preset--color--foreground, #7F54B3);
-  color: var(--wp--preset--color--background, white);
+  background-color: var(--wp--preset--color--foreground, #7f187f);
+  color: var(--wp--preset--color--background, #e5b1e5);
 }
 .woocommerce #respond input#submit.disabled, .woocommerce #respond input#submit:disabled, .woocommerce #respond input#submit:disabled[disabled], .woocommerce #respond input#submit.disabled:hover, .woocommerce #respond input#submit:disabled:hover, .woocommerce #respond input#submit:disabled[disabled]:hover,
 .woocommerce input.button.disabled,
@@ -210,8 +210,8 @@
 .woocommerce input.button.disabled:hover,
 .woocommerce input.button:disabled:hover,
 .woocommerce input.button:disabled[disabled]:hover {
-  background-color: var(--wp--preset--color--foreground, #7F54B3);
-  color: var(--wp--preset--color--background, white);
+  background-color: var(--wp--preset--color--foreground, #7f187f);
+  color: var(--wp--preset--color--background, #e5b1e5);
 }
 .woocommerce #respond input#submit.alt,
 .woocommerce a.button.alt,
@@ -260,8 +260,8 @@
 }
 .woocommerce button.button,
 .woocommerce a.button {
-  background-color: var(--wp--preset--color--foreground, #7F54B3);
-  color: var(--wp--preset--color--background, white);
+  background-color: var(--wp--preset--color--foreground, #7f187f);
+  color: var(--wp--preset--color--background, #e5b1e5);
 }
 .woocommerce button.button.disabled, .woocommerce button.button:disabled, .woocommerce button.button:disabled[disabled], .woocommerce button.button.disabled:hover, .woocommerce button.button:disabled:hover, .woocommerce button.button:disabled[disabled]:hover,
 .woocommerce a.button.disabled,
@@ -270,8 +270,8 @@
 .woocommerce a.button.disabled:hover,
 .woocommerce a.button:disabled:hover,
 .woocommerce a.button:disabled[disabled]:hover {
-  background-color: var(--wp--preset--color--foreground, #7F54B3);
-  color: var(--wp--preset--color--background, white);
+  background-color: var(--wp--preset--color--foreground, #7f187f);
+  color: var(--wp--preset--color--background, #e5b1e5);
 }
 .woocommerce .woocommerce-result-count {
   margin-top: 0;

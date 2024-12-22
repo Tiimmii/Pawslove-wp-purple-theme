@@ -12,52 +12,26 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php
-		if ( is_singular() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
-		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-		endif;
 
 		if ( 'post' === get_post_type() ) :
 			?>
-			<div class="entry-meta">
-				<?php
-				pawslove_posted_on();
-				pawslove_posted_by();
-				?>
-			</div><!-- .entry-meta -->
+			<div class="media1 d-flex gap-2 pt-4">
+				<img class="rounded-2 " src="<?php the_post_thumbnail_url('thumbnail') ?>" alt="image">
+				<div class="media-body">
+					<h2 class=""><?php the_title(); ?></h2>
+					<div class="meta mb-1"><span class="date">Published <?php echo get_the_date(); ?></span><span> <?php pawslove_posted_by() ?></span><span class="px-2"><a class="text-decoration-none"><?php echo get_comments_number(). " Comments"?></a></span></div>
+					<div class="intro"><?php the_excerpt(); ?></div>
+					<div class="icons pr-5">
+						<i class="bi bi-github text-white"></i>
+						<i class="bi bi-twitter-x text-primary"></i>
+						<i class="bi bi-linkedin text-primary"></i>
+						<i class="bi bi-link-45deg text-primary"></i>
+						<i class="bi bi-instagram text-primary"></i>
+						<i class="bi bi-threads text-primary"></i>
+						<i class="bi bi-discord text-primary"></i>
+					</div>
+					<a class="more-link" href="<?php the_permalink(); ?>">Read more &rarr;</a>
+        		</div>
+			</div>
 		<?php endif; ?>
-	</header><!-- .entry-header -->
-
-	<?php pawslove_post_thumbnail(); ?>
-
-	<div class="entry-content">
-		<?php
-		the_content(
-			sprintf(
-				wp_kses(
-					/* translators: %s: Name of current post. Only visible to screen readers */
-					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'pawslove' ),
-					array(
-						'span' => array(
-							'class' => array(),
-						),
-					)
-				),
-				wp_kses_post( get_the_title() )
-			)
-		);
-
-		wp_link_pages(
-			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'pawslove' ),
-				'after'  => '</div>',
-			)
-		);
-		?>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<?php pawslove_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

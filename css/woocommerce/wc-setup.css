@@ -9,12 +9,12 @@
   --wc-red: #a00;
   --wc-orange: #ffba00;
   --wc-blue: #2ea2cc;
-  --wc-primary: #7F54B3;
-  --wc-primary-text: white;
-  --wc-secondary: #e9e6ed;
-  --wc-secondary-text: #515151;
-  --wc-highlight: #777335;
-  --wc-highligh-text: white;
+  --wc-primary: #7f187f;
+  --wc-primary-text: #e5b1e5;
+  --wc-secondary: #d68dd6;
+  --wc-secondary-text: #1f121f;
+  --wc-highlight: #1e3209;
+  --wc-highligh-text: #eaf4df;
   --wc-content-bg: #fff;
   --wc-subtext: #767676;
 }
@@ -89,10 +89,10 @@ body {
   color: #666;
 }
 .wc-setup-content a {
-  color: #7F54B3;
+  color: #7f187f;
 }
 .wc-setup-content a:hover, .wc-setup-content a:focus {
-  color: #1c1229;
+  color: black;
 }
 .wc-setup-content .form-table th {
   width: 35%;
@@ -306,15 +306,15 @@ body {
 }
 .wc-setup-content .wc-setup-next-steps ul .setup-product a.button-primary {
   color: #fff;
-  background-color: #7F54B3;
-  border-color: #7F54B3;
+  background-color: #7f187f;
+  border-color: #7f187f;
   box-shadow: 0 0 0;
   text-shadow: none;
 }
 .wc-setup-content .wc-setup-next-steps ul .setup-product a.button-primary:hover, .wc-setup-content .wc-setup-next-steps ul .setup-product a.button-primary:focus, .wc-setup-content .wc-setup-next-steps ul .setup-product a.button-primary:active {
   color: #fff;
-  background: #8c66bb;
-  border-color: #8c66bb;
+  background: #941c94;
+  border-color: #941c94;
   box-shadow: none;
 }
 .wc-setup-content .wc-setup-next-steps ul li a::before {
@@ -399,8 +399,8 @@ body {
   outline: rgb(59, 153, 252) auto 5px;
 }
 .wc-setup-content .checkbox input[type=checkbox]:checked + label::before {
-  background: #7F54B3;
-  border-color: #7F54B3;
+  background: #7f187f;
+  border-color: #7f187f;
 }
 
 .woocommerce-tracker {
@@ -454,7 +454,7 @@ body {
   line-height: 1.4;
 }
 .wc-setup-steps li a {
-  color: #7F54B3;
+  color: #7f187f;
   text-decoration: none;
   padding: 1.5em;
   margin: -1.5em;
@@ -479,20 +479,20 @@ body {
   background: #fff;
 }
 .wc-setup-steps li.active {
-  border-color: #7F54B3;
-  color: #7F54B3;
+  border-color: #7f187f;
+  color: #7f187f;
   font-weight: 700;
 }
 .wc-setup-steps li.active::before {
-  border-color: #7F54B3;
+  border-color: #7f187f;
 }
 .wc-setup-steps li.done {
-  border-color: #7F54B3;
-  color: #7F54B3;
+  border-color: #7f187f;
+  color: #7f187f;
 }
 .wc-setup-steps li.done::before {
-  border-color: #7F54B3;
-  background: #7F54B3;
+  border-color: #7f187f;
+  background: #7f187f;
 }
 
 .wc-setup .wc-setup-actions {
@@ -503,8 +503,8 @@ body {
 
 .wc-setup .wc-setup-actions .button-primary,
 .woocommerce-tracker .button-primary {
-  background-color: #7F54B3;
-  border-color: #7F54B3;
+  background-color: #7f187f;
+  border-color: #7f187f;
   box-shadow: 0 0 0;
   text-shadow: none;
   margin: 0;
@@ -514,8 +514,8 @@ body {
 .woocommerce-tracker .button-primary:hover,
 .woocommerce-tracker .button-primary:focus,
 .woocommerce-tracker .button-primary:active {
-  background: #8c66bb;
-  border-color: #8c66bb;
+  background: #941c94;
+  border-color: #941c94;
   box-shadow: 0 0 0;
 }
 
@@ -701,8 +701,8 @@ body {
 .wc-wizard-services-list-toggle .wc-wizard-service-toggle {
   height: 16px;
   width: 32px;
-  border: 2px solid #7F54B3;
-  background-color: #7F54B3;
+  border: 2px solid #7f187f;
+  background-color: #7f187f;
   display: inline-block;
   text-indent: -9999px;
   border-radius: 10em;
@@ -991,10 +991,10 @@ h3.jetpack-reasons {
 }
 
 .plugin-install-source {
-  background: rgba(127, 84, 179, 0.15);
+  background: rgba(127, 24, 127, 0.15);
 }
 .plugin-install-source:not(.wc-wizard-service-item) {
-  box-shadow: 0 0 0 10px rgba(127, 84, 179, 0.15);
+  box-shadow: 0 0 0 10px rgba(127, 24, 127, 0.15);
 }
 
 .location-prompt {
@@ -1277,7 +1277,7 @@ p.jetpack-terms {
   margin-left: 4px;
 }
 .wc-setup-content .recommended-item .recommended-item-icon.recommended-item-icon-wc_admin {
-  background-color: #7F54B3;
+  background-color: #7f187f;
   padding: 0.5em;
   height: 2em;
 }

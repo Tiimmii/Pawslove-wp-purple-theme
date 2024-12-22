@@ -486,7 +486,7 @@ p.demo_store,
 		left: -0.5em;
 		margin: 0;
 		border-radius: 100%;
-		background-color: $highlight;
+		background-color: $primary;
 		color: $highlightext;
 		font-size: 0.857em;
 		z-index: 9;
@@ -835,9 +835,18 @@ p.demo_store,
 		p {
 			margin: 0 0 10px;
 		}
+		.form-submit{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
 
 		.form-submit input {
+			width: 50%;
+			height: 50px;
 			left: auto;
+			background: #7f187f;
+			color: #fff;
 		}
 
 		textarea {
@@ -2390,7 +2399,7 @@ body:not(.search-results) .twentysixteen .entry-summary {
 	color: inherit;
 }
 
-//checkout button
+//cart checkout button
 .wc-block-cart{
 	&__submit-container{
 		background: #7f187f;
@@ -2402,7 +2411,7 @@ body:not(.search-results) .twentysixteen .entry-summary {
 	}
 }
 
-//checkout remove item button
+//cart remove item button
 .wc-block-cart-item{
 	&__remove-link{
 		background: #7f187f !important;
@@ -2411,4 +2420,11 @@ body:not(.search-results) .twentysixteen .entry-summary {
 		text-decoration: none !important;
 		padding: 10px !important;
 	}
+}
+
+//checkout place order button
+.wc-block-components-button{
+	background-color: #7f187f;
+	color: #fff;
+	border-radius: 5px;
 }

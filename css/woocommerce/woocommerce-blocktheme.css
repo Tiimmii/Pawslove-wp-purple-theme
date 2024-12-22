@@ -27,12 +27,12 @@
   --wc-red: #a00;
   --wc-orange: #ffba00;
   --wc-blue: #2ea2cc;
-  --wc-primary: #7F54B3;
-  --wc-primary-text: white;
-  --wc-secondary: #e9e6ed;
-  --wc-secondary-text: #515151;
-  --wc-highlight: #777335;
-  --wc-highligh-text: white;
+  --wc-primary: #7f187f;
+  --wc-primary-text: #e5b1e5;
+  --wc-secondary: #d68dd6;
+  --wc-secondary-text: #1f121f;
+  --wc-highlight: #1e3209;
+  --wc-highligh-text: #eaf4df;
   --wc-content-bg: #fff;
   --wc-subtext: #767676;
 }
@@ -150,8 +150,8 @@
   text-decoration: none;
 }
 .woocommerce span.onsale {
-  background-color: var(--wp--preset--color--foreground, #777335);
-  color: var(--wp--preset--color--background, white);
+  background-color: var(--wp--preset--color--foreground, #1e3209);
+  color: var(--wp--preset--color--background, #eaf4df);
 }
 .woocommerce table.variations tr {
   display: block;
@@ -399,13 +399,13 @@ a.added_to_cart {
 */
 p.demo_store,
 .woocommerce-store-notice {
-  background: var(--wp--preset--color--foreground, #7F54B3);
+  background: var(--wp--preset--color--foreground, #7f187f);
   bottom: 0;
-  color: var(--wp--preset--color--background, white);
+  color: var(--wp--preset--color--background, #e5b1e5);
   position: fixed;
   top: auto !important;
 }
 p.demo_store a,
 .woocommerce-store-notice a {
-  color: var(--wp--preset--color--background, white);
+  color: var(--wp--preset--color--background, #e5b1e5);
 }/*# sourceMappingURL=woocommerce-blocktheme.css.map */

@@ -1,10 +1,7 @@
 <?php
 /**
- * The template for displaying all single posts
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
- *
- * @package pawslove
+ * Template Name: Elementor Canvas
+ * Template Post Type: post, page
  */
 
 get_header();

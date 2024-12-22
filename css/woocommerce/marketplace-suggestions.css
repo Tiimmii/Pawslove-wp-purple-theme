@@ -70,12 +70,12 @@
   --wc-red: #a00;
   --wc-orange: #ffba00;
   --wc-blue: #2ea2cc;
-  --wc-primary: #7F54B3;
-  --wc-primary-text: white;
-  --wc-secondary: #e9e6ed;
-  --wc-secondary-text: #515151;
-  --wc-highlight: #777335;
-  --wc-highligh-text: white;
+  --wc-primary: #7f187f;
+  --wc-primary-text: #e5b1e5;
+  --wc-secondary: #d68dd6;
+  --wc-secondary-text: #1f121f;
+  --wc-highlight: #1e3209;
+  --wc-highligh-text: #eaf4df;
   --wc-content-bg: #fff;
   --wc-subtext: #767676;
 }

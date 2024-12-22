@@ -254,8 +254,8 @@ function woocommerce_header_add_to_cart_fragment( $fragments ) {
 		'description'=> __('Column Three', 'text_domain'),
 		'before_title'=> '<h3 class="title">',
 		'after_title'=> '</h3>',
-		'before_widget'=> '<div id="%1$s" class="widget %2$s">',
-		'after_widget'=> '</div>'
+		'before_widget'=> '<section id="%1$s" class="widget %2$s">',
+		'after_widget'=> '</section>'
 	);
 	register_sidebar( $args );
  }
@@ -292,3 +292,8 @@ function remove_woocommerce_styles($enqueue_styles){
 	}
  }
  add_action('wp_enqueue_scripts', 'wp_enqueue_woocommerce_style');
+
+ //elementor theme support
+ add_action( 'after_setup_theme', function(){
+	add_theme_support('elementor');
+});

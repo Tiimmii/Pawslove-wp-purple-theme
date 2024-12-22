@@ -7,12 +7,12 @@
   --wc-red: #a00;
   --wc-orange: #ffba00;
   --wc-blue: #2ea2cc;
-  --wc-primary: #7F54B3;
-  --wc-primary-text: white;
-  --wc-secondary: #e9e6ed;
-  --wc-secondary-text: #515151;
-  --wc-highlight: #777335;
-  --wc-highligh-text: white;
+  --wc-primary: #7f187f;
+  --wc-primary-text: #e5b1e5;
+  --wc-secondary: #d68dd6;
+  --wc-secondary-text: #1f121f;
+  --wc-highlight: #1e3209;
+  --wc-highligh-text: #eaf4df;
   --wc-content-bg: #fff;
   --wc-subtext: #767676;
 }
@@ -59,10 +59,10 @@ body {
   padding: 0;
 }
 .wc-auth-content a {
-  color: #7F54B3;
+  color: #7f187f;
 }
 .wc-auth-content a:hover, .wc-auth-content a:focus {
-  color: #1c1229;
+  color: black;
 }
 .wc-auth-content .wc-auth-login label {
   color: #999;
@@ -133,8 +133,8 @@ body {
   background: #fcfcfc;
 }
 .wc-auth .wc-auth-actions .button-primary {
-  background: #7F54B3;
-  border-color: #7F54B3;
+  background: #7f187f;
+  border-color: #7f187f;
   box-shadow: 0 0 0;
   color: #fff;
   float: right;
@@ -142,7 +142,7 @@ body {
   text-shadow: none;
 }
 .wc-auth .wc-auth-actions .button-primary:hover, .wc-auth .wc-auth-actions .button-primary:focus {
-  background: #8c66bb;
+  background: #941c94;
   color: #fff;
 }
 .wc-auth .wc-auth-actions .wc-auth-approve {
